@@ -1,8 +1,8 @@
 <?php
 
-    $name = $_POST['your_email']; 
+    $name = $_POST['email']; 
 
-    $email_content .= "User name: $name\n";
+    $email_content .= "User email: $name\n";
  
     
     mail ("olyasorrohtey@gmail.com", "WP Sites application", $email_content);
